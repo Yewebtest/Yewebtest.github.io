@@ -1,0 +1,774 @@
+﻿@import "fn.styl"
+
+body
+	background #f8f8f8 !important
+	
+.wid
+	width:920px;
+	margin:0 auto;
+
+.header
+	width 100%
+	overflow hidden
+	background #fff
+	padding 15px 0
+	margin-bottom 50px
+	h1
+		float left
+		width 88px
+		height 64px
+		overflow hidden
+		a
+			public-a()
+			img
+				width 100%
+				vertical-align top
+				
+.nav
+	float right
+	margin-top 10px
+	ul
+		li
+			heightL(40px)
+			border-right 1px solid #000
+			&:last-child
+				border-right none
+			&.acti
+				a
+					color #d0d41b
+			a
+				padding 0 30px
+				color #848079
+				display block
+				font-size 16px
+				transition .3s
+				font-family "Times New Roman"
+				&:hover
+					color #d0d41b
+					
+.list
+	position relative
+	width 100%
+	height 523px
+	overflow hidden
+	margin-bottom 10px
+	.pic
+		width 100%
+		height 500px
+		img
+			public-img(0)
+	ul
+		position absolute
+		width 100%
+		height 100%
+		bottom 0
+		left 0
+		li
+			position relative
+			width 25%
+			border-right 10px solid #fff
+			height 100%
+			overflow hidden
+			&:last-child
+				border-right none
+			&>img
+				public-img()
+			a
+				position absolute
+				bottom 65px
+				left 0
+				width 100%
+				background #d0d41b
+				text-align center
+				line-height 70px
+				transition .3s
+				&:hover
+					background #2e7c01
+				img
+					display inline-block
+				span
+					font-size 30px
+					color #fff
+					margin-left 20px
+					vertical-align top
+					
+.lets-meet
+	width 100%
+	height 280px
+	overflow hidden
+	background #d0d41b
+	margin-bottom 60px
+	.left
+		position relative
+		width 50%
+		height 100%
+		float left
+		&:hover
+			img
+				opacity 0
+			.text
+				display block
+				z-index 3
+		img
+			position absolute
+			z-index 2
+			top 0
+			left 0
+			public-img()
+			transition .3s
+			
+		.text
+			position relative
+			width 90%
+			margin 50px auto 0
+			text-align center
+			display none
+			a
+				color #fff
+				font-size 13px
+				color #fff
+				line-height 1.8
+				display inline-block
+				margin-bottom 10px
+				&:hover
+					opacity .8
+	.right
+		position relative
+		width 50%
+		height 100%
+		float right
+		.text
+			position absolute
+			top 50%
+			left 50%
+			width 90%
+			text-align center
+			transform translate(-50%,-50%)
+			b
+				heightL(45px)
+				color #fff
+				font-weight normal
+				font-size 30px
+				margin-bottom 17px
+				display block
+				text-hide()
+			a
+				heightL(40px)
+				background #fff
+				font-size 14px
+				color #d0d41b
+				padding 0 22px
+				display inline-block
+				transition .3s
+				&:hover
+					opacity .85
+	
+.public-title
+		font-size 21px
+		color #585551
+		font-weight normal
+		line-height 33px
+		font-weight normal
+		margin-bottom 10px
+		padding-bottom 5px
+		border-bottom 1px solid #c3c0b9
+
+
+.mark-box
+	width 100%
+	overflow hidden
+	margin-bottom 30px
+	.text	
+		width 100%
+		p
+			width 50%
+			float right
+			font-size 13px
+			color #848079
+			text-align justify
+			line-height 1.6
+			
+.footer
+	width 100%
+	overflow hidden
+	background #fff
+	padding 30px 0
+	.text
+		width 35%
+		font-size 16px
+		line-height 1.4
+		float left
+		padding-right 30px
+		&.t2
+			padding-right 0
+		strong
+			text-decoration underline
+			font-weight normal
+			display block
+			margin-bottom 10px
+		span
+			display block
+			margin-bottom 10px
+		p
+			margin-bottom 10px
+		i
+			text-decoration underline
+			display block
+			margin-bottom 5px
+	.logo
+		width 88px
+		height 64px
+		float left
+		margin-right 30px
+		margin-top 50px
+		a
+			public-a()
+			img
+				width 100%
+	.logs
+		float right
+		margin-top 50px
+		a
+			width 30px
+			height 30px
+			float left
+			margin-right 5px
+			img
+				width 100%
+.about
+	width 100%
+	overflow hidden
+	margin-bottom 30px
+	.text
+		width 70%
+		float right
+		padding-top 20px
+		p
+			font-size 14px
+			color #848079
+			text-align justify
+			line-height 1.4
+			margin-bottom 10px
+
+.staff
+	width 100%
+	overflow hidden
+	margin-bottom 30px
+	.box
+		width 80%
+		float right
+		padding-top 20px
+		ul
+			margin-left -2.333%
+			li
+				width 31%
+				margin-left 2.333%
+				.pic
+					width 180px
+					height 180px
+					border-radius 50%
+					overflow hidden
+					margin 0 auto 15px
+					img
+						public-img()
+				.text
+					width 100%
+					text-align center
+					line-height 1.4
+					strong
+						position relative
+						display block
+						font-size 23px
+						color #4ac20d
+						font-weight normal
+						margin-bottom 30px
+						&:after
+							content ""
+							position absolute
+							bottom -15px
+							left 50%
+							width 35px
+							height 1px
+							background #d0d41b
+							display block
+							transform translateX(-50%)
+					span
+						font-size 14px
+						color #848079
+						font-weight bold
+						display block
+						margin-bottom 20px
+					p
+						font-size 13px
+						color #8f8b84
+						text-align left
+
+.contact-us
+	width 100%
+	overflow hidden
+	padding-bottom 300px
+	.pic
+		position relative
+		margin-top 30px
+		width 100%
+		height 260px
+		overflow hidden
+		margin-bottom 60px
+		img
+			public-img()
+		span
+			position absolute
+			top 50%
+			left 50%
+			transform translate(-50%,-50%)
+			background #d0d41b
+			heightL(56px)
+			color #fff
+			font-size 20px
+			padding 0 10px
+	.bottom-box
+		width 100%
+		overflow hidden
+		.form
+			width 50%
+			float left
+			form
+				width 100%
+				height 100%
+				input[type="text"]
+					width 49%
+					border 1px solid #a3a29f
+					background #fff
+					font-size 14px
+					padding-left 10px
+					heightL(30px)
+					float left
+					margin-bottom 5px
+					&:hover
+						border-color #666460
+						background #e8e8e8
+					&:focus
+						border-color #d0d41b
+						background #fff
+				input[type="submit"]
+					width 110px
+					heightL(30px)
+					float right
+					background #d0d41b
+					color #fff
+					font-size 14px
+					transition .3s
+					cursor pointer
+					&:hover
+						background #2e7c01
+				textarea
+					width 49%
+					height 100px
+					float right
+					border 1px solid #a3a29f
+					background #fff
+					font-size 13px
+					padding 10px
+					margin-bottom 5px
+					&:hover
+						border-color #666460
+						background #e8e8e8
+					&:focus
+						border-color #d0d41b
+						background #fff
+		.right
+			width 43%
+			float right
+			.logo
+				width 176px
+				height 70px
+				overflow hidden
+				float left
+				a
+					public-a()
+					img		
+						width 100%
+						vertical-align top	
+			.text
+				float right
+				width 46%
+				color #d0d41b
+				line-height 1.7
+				font-size 14px
+				font-family "enriqueta,serif"
+				i
+					width 35px
+					height 1px
+					background #d0d41b
+					display block
+					margin 10px 0
+				a
+					color #d0d41b
+					
+.our-services
+	width 100%
+	overflow hidden
+	margin-bottom 140px
+	h2
+		font-size 21px
+		color #5a5753
+		text-align center
+		line-height 1.4
+		font-weight normal
+		margin-bottom 40px
+	.box
+		width 100%
+		height 328px
+		overflow hidden
+		background #fff
+		&:hover
+			.left
+				i
+					opacity 0
+					img
+						transform scale(1.05)
+				a
+					z-index 2
+						
+		.left
+			position relative
+			width 50%
+			height 100%
+			text-align center
+			float left
+			i
+				position absolute
+				top 0
+				left 0
+				width 100%
+				height 100%
+				transition .3s
+				overflow hidden
+				img
+					public-img()
+					transition .3s
+			a
+				position absolute
+				top 50%
+				left 50%
+				width 80%
+				transform translate(-50%,-50%)
+				font-size 14px
+				color #585551
+				line-height 1.7
+				span
+					text-decoration underline
+					font-size 15px
+		.right
+			position relative
+			width 50%
+			height 100%
+			float right
+			.text
+				position absolute
+				top 50%
+				left 50%
+				width 70%
+				transform translate(-50%,-50%)
+				text-align center
+				a
+					line-height 1.4
+					&.a1
+						font-size 21px
+						color #d0d41b
+						display block
+						margin-bottom 15px
+						&:hover
+							text-decoration underline
+					&.a2
+						heightL(42px)
+						background #d0d41b
+						color #fff
+						font-size 14px
+						padding 0 20px
+						display inline-block
+						transition .3s
+						&:hover
+							background #459914
+				p
+					font-size 14px
+					color #585551
+					line-height 1.4
+					margin-bottom 15px
+
+.works
+	width 100%
+	margin-bottom 40px
+	overflow hidden
+	ul
+		li
+			width 100%
+			padding 40px 0
+			border-bottom 1px solid #dbdbdb
+			strong
+				color #d3002f
+				font-family "Lato"
+				font-size 40px
+				font-weight normal
+				line-height 1.4
+			p
+				line-height 1.9
+				color #191919
+				font-size 20px
+				font-family "Lato"
+
+.process
+	width 100%
+	overflow hidden
+	background #fff
+	padding 30px 0
+	margin-bottom 20px
+	.text
+		line-height 1.4
+		margin-bottom 50px
+		strong
+			font-size 35px
+			font-weight normal
+			display block
+			margin-bottom 15px
+		p
+			font-size 18px
+			margin-bottom 10px
+			padding-left 30px
+	.pic
+		width 100%
+		height 186px
+		overflow hidden
+		img
+			width 100%
+
+@media screen and (max-width: 992px)
+	.wid
+		width 100%
+		padding 0 3%
+	.works
+		margin-top -30px
+	.process
+		.pic
+			height auto
+	.list 
+		ul
+			li
+				a
+					span
+						font-size 18px
+						margin-left 15px
+
+@media screen and (max-width: 750px)
+	.wid
+		width 100%
+		padding 0 6%
+	.list 
+		height auto
+		.pic
+			height 360px
+			margin-bottom 10px
+		ul
+			position relative
+			li
+				width 100%
+				border-right none
+				margin-bottom 10px
+				a
+					position relative
+					bottom 0
+					display block
+					span
+						font-size 20px
+	.lets-meet 
+		height 560px
+		.left
+			width 100%
+			float none
+			height 280px
+		.right
+			width 100%
+			float none
+			height 280px
+			.text
+				b
+					font-size 40px
+					margin-bottom 40px
+				a
+					font-size 20px
+	.mark-box
+		.text
+			p
+				width 100%
+				font-size 16px
+	.public-title
+		font-size 26px
+		margin-bottom 20px
+	.our-services 
+		margin-bottom 30px
+		h2
+			font-size 28px
+			text-align left
+			font-weight bold
+		.box 
+			height auto
+			background none
+			.left
+				width 100%
+				height 230px
+				a
+					font-size 18px
+			.right
+				width 100%
+				height auto
+				padding 30px 0
+				.text
+					position relative
+					top 0
+					left 0
+					transform translate(0, 0);
+					width 100%
+					text-align left
+					p
+						font-size 18px
+						margin-bottom 20px
+					a
+						&.a1
+							font-size 26px
+							color #777571
+						&.a2
+							font-size 20px
+							padding 0
+							width 100%
+							display block
+							text-align center
+							heightL(52px)
+	.about 
+		.text
+			width 100%
+			p
+				font-size 16px
+	.staff 
+		.box
+			width 100%
+			ul
+				margin 0
+				li
+					width 100%
+					margin 0 0 30px
+					
+					.pic
+						width 200px
+						height 200px
+					.text
+						strong
+							font-size 26px
+						span
+							font-size 18px
+						p
+							font-size 16px
+	.contact-us 
+		padding-bottom 30px
+		.pic
+			height auto
+			overflow initial
+			img
+				display block
+				min-height 200px
+				margin-bottom 20px
+			span
+				position relative
+				top 0
+				left 0
+				display block
+				transform translate(0,0)
+				line-height 1.4
+				text-align center
+				font-size 26px
+				height auto
+				padding 10px
+		.bottom-box 
+			.form
+				width 100%
+				form
+					input[type="text"]
+						width 100%
+						heightL(45px)
+						margin-bottom 10px
+					textarea
+						width 100%
+					input[type="submit"]
+						width 130px
+						heightL(36px)
+						font-size 16px
+			.right
+				width 100%
+				margin-top 20px
+				.logo
+					display none
+				.text
+					width 100%
+					font-size 20px
+	.header
+		padding 10px 0
+	.nav
+		position fixed
+		z-index 5
+		left 0
+		top 0
+		width 100%
+		height 100%
+		background #fff
+		padding 30px 0
+		display none
+		&.ac
+			display none !important
+		ul
+			li
+				width 100% !important
+				text-align center
+				margin-bottom 10px
+				a
+					color #d0d41b
+					font-size 22px
+	.ico-menu
+		position fixed
+		z-index 6
+		right 15px
+		top 35px
+		width 25px
+		&:after
+			content ""
+			position absolute
+			top -15px
+			right -15px
+			width 50px
+			height 50px
+			display block
+		&.acti
+			var
+				&.v1
+					top 5px
+					transform rotate(45deg)
+				&.v2
+					display none
+				&.v3
+					top -3px
+					transform rotate(-45deg)
+		var
+			position relative
+			width 100%
+			height 3px
+			margin-bottom 5px
+			background #d0d41b
+			display block
+			transition .3s
+	.footer
+		.text
+			width 100%
+		.logo
+			margin-top 0
+			margin-bottom 30px
+		.logs
+			float left
+			margin-top 20px
