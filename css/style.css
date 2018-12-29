@@ -18,7 +18,7 @@ body {
 .header h1 {
   float: left;
   width: 120px;
-  height: 87px;
+  height: 97px;
   overflow: hidden;
 }
 .header h1 a {
@@ -82,7 +82,7 @@ body {
 }
 .list ul li {
   position: relative;
-  width: 25%;
+  width: 33.33%;
   border-right: 10px solid #fff;
   height: 100%;
   overflow: hidden;
@@ -421,7 +421,7 @@ body {
   overflow: hidden;
 }
 .contact-us .bottom-box .form {
-  width: 50%;
+  width: 100%;
   float: left;
 }
 .contact-us .bottom-box .form form {
@@ -444,6 +444,25 @@ body {
   background: #e8e8e8;
 }
 .contact-us .bottom-box .form form input[type="text"]:focus {
+  border-color: #d0d41b;
+  background: #fff;
+}
+.contact-us .bottom-box .form form input[type="email"] {
+  width: 49%;
+  border: 1px solid #a3a29f;
+  background: #fff;
+  font-size: 14px;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-bottom: 5px;
+}
+.contact-us .bottom-box .form form input[type="email"]:hover {
+  border-color: #666460;
+  background: #e8e8e8;
+}
+.contact-us .bottom-box .form form input[type="email"]:focus {
   border-color: #d0d41b;
   background: #fff;
 }
@@ -521,7 +540,7 @@ body {
 .our-services {
   width: 100%;
   overflow: hidden;
-  margin-bottom: 140px;
+  margin-bottom: 10px;
 }
 .our-services h2 {
   font-size: 21px;
@@ -689,7 +708,7 @@ body {
 }
 .process .pic {
   width: 80%;
-  height: 186px;
+  height: 196px;
   overflow: hidden;
 }
 .process .pic img {
@@ -848,7 +867,7 @@ body {
     font-size: 16px;
   }
   .contact-us {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
   .contact-us .pic {
     height: auto;
@@ -972,6 +991,7 @@ body {
   }
   .footer .text {
     width: 100%;
+    font-family: "Lato"
   }
   .footer .logo {
     margin-top: 0;
