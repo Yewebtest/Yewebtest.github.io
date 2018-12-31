@@ -131,41 +131,21 @@ body {
   height: 100%;
   float: left;
 }
-.lets-meet .left:hover img {
-  opacity: 0;
-}
-.lets-meet .left:hover .text {
-  display: block;
-  z-index: 3;
-}
-.lets-meet .left img {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100%;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
 .lets-meet .left .text {
   position: relative;
   width: 90%;
   margin: 50px auto 0;
   text-align: center;
-  display: none;
+  display: block;
 }
 .lets-meet .left .text a {
-  color: #fff;
-  font-size: 13px;
-  color: #fff;
+  color: black;
+  font-size: 18px;
   line-height: 1.8;
   display: inline-block;
   margin-bottom: 10px;
-}
-.lets-meet .left .text a:hover {
-  opacity: 0.8;
+  font-family: Lato;
+  font-style: italic;
 }
 .lets-meet .right {
   position: relative;
@@ -254,6 +234,7 @@ body {
 }
 .footer .text.t2 {
   padding-right: 0;
+  margin-top: 20px;
 }
 .footer .text strong {
   text-decoration: underline;
@@ -266,19 +247,19 @@ body {
   margin-bottom: 10px;
 }
 .footer .text p {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .footer .text i {
   text-decoration: underline;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .footer .logo {
-  width: 88px;
-  height: 64px;
+  width: 120px;
+  height: 96px;
   float: left;
   margin-right: 30px;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 .footer .logo a {
   width: 100%;
@@ -556,7 +537,7 @@ body {
   overflow: hidden;
   background: #fff;
 }
-.our-services .box:hover .left i {
+/*.our-services .box:hover .left i {
   opacity: 0;
 }
 .our-services .box:hover .left i img {
@@ -566,7 +547,7 @@ body {
 }
 .our-services .box:hover .left a {
   z-index: 2;
-}
+}*/
 .our-services .box .left {
   position: relative;
   width: 50%;
@@ -708,7 +689,7 @@ body {
 }
 .process .pic {
   width: 80%;
-  height: 196px;
+  height: 286px;
   overflow: hidden;
 }
 .process .pic img {
@@ -842,6 +823,7 @@ body {
   }
   .about .text p {
     font-size: 16px;
+    color: #43413e;
   }
   .staff .box {
     width: 100%;
