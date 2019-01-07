@@ -644,6 +644,9 @@ body {
   margin-bottom: 40px;
   overflow: hidden;
 }
+.works strong{
+  margin-bottom: 10px;
+}
 .works ul li {
   width: 100%;
   padding: 40px 0;
