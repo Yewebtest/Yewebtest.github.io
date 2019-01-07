@@ -132,14 +132,14 @@ body {
 }
 .lets-meet .left .text {
   position: relative;
-  width: 90%;
-  margin: 50px auto 0;
+  width: 95%;
+  margin: 30px auto 0;
   text-align: center;
   display: block;
 }
 .lets-meet .left .text a {
   color: black;
-  font-size: 22px;
+  font-size: 21px;
   line-height: 1.8;
   display: inline-block;
   margin-bottom: 10px;
