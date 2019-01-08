@@ -53,7 +53,7 @@ body {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-family: "Times New Roman";
+  font-family: "Calibri";
 }
 .nav ul li a:hover {
   color: #d0d41b;
@@ -143,7 +143,7 @@ body {
   line-height: 1.8;
   display: inline-block;
   margin-bottom: 10px;
-  font-family: Lato;
+  font-family: Calibri;
   font-style: italic;
 }
 .lets-meet .right {
@@ -230,7 +230,7 @@ body {
   color: #848079;
   float: left;
   padding-right: 30px;
-  font-family: "Times New Roman";
+  font-family: "Calibri";
 }
 .footer .text.t2 {
   padding-right: 0;
@@ -298,7 +298,7 @@ body {
   text-align: justify;
   line-height: 1.9;
   margin-bottom: 10px;
-  font-family: "Lato";
+  font-family: "Calibri";
 }
 .staff {
   width: 100%;
@@ -507,7 +507,7 @@ body {
   color: #d0d41b;
   line-height: 1.7;
   font-size: 14px;
-  font-family: "enriqueta,serif";
+  font-family: "Calibri";
 }
 .contact-us .bottom-box .right .text i {
   width: 35px;
@@ -654,7 +654,7 @@ body {
 }
 .works ul li strong {
   color: #c2d04b;
-  font-family: "Lato";
+  font-family: "Calibri";
   font-size: 30px;
   font-weight: normal;
   line-height: 1.4;
@@ -663,7 +663,7 @@ body {
   line-height: 1.9;
   color: #43413e;
   font-size: 15px;
-  font-family: "Lato";
+  font-family: "Calibri";
 }
 .process {
   width: 100%;
@@ -678,7 +678,7 @@ body {
 }
 .process .text strong {
   color: #d3002f;
-  font-family: "Lato";
+  font-family: "Calibri";
   font-size: 30px;
   font-weight: normal;
   display: block;
@@ -687,7 +687,7 @@ body {
 .process .text p {
   color: #191919;
   font-size: 15px;
-  font-family: "Lato";
+  font-family: "Calibri";
   margin-bottom: 10px;
   padding-left: 0px;
 }
@@ -977,7 +977,7 @@ body {
   }
   .footer .text {
     width: 100%;
-    font-family: "Lato"
+    font-family: "Calibri"
   }
   .footer .logo {
     margin-top: 0;
